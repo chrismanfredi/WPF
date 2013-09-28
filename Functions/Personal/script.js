@@ -6,16 +6,16 @@ var game3 = prompt("Enter your score from game 3");
 
 function totalscore (){
 
-    var totalscore ;
+    var totalscore;
     var result = "";
 
     totalscore = (game1* game2 * game3) / 3;
 
     if (totalscore > 400){
-        result = "Your total deaths are" + totalscore+  "Your GOOD!";
+        result = "Your total score is" + totalscore+  "Your GOOD!";
      }
     else{
-     result = "Your Bad! you died" + totalscore + "!";
+     result = "Your Bad! your high score was" + totalscore + "!";
 
     }
 
